@@ -300,49 +300,50 @@
             fill: #bcbcbc;
         }
 
-        .share-buttons {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 20px;
-        }
+    .share-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
 
-        .share-buttons a {
-            width: 22%;
-            padding: 10px;
-            font-size: 1em;
-            text-align: center;
-            text-decoration: none;
-            color: #fff;
-        }
+    .share-buttons a {
+      width: 22%; /* Set the width of each link to 25% of the parent container's width */
+      padding: 10px; /* Add padding to provide some spacing between links */
+      font-size: 1em; /* Use relative font size for better responsiveness */
+      text-align: center; /* Center the text inside the links */
+      text-decoration: none; /* Remove underlines from the links */
+      color: #fff; /* Set the color of the link text */
+    }
 
-        @media screen and (max-width: 768px) {
-            .share-buttons a {
-                width: 40%;
-                font-size: 0.6em;
-            }
-        }
+    /* Media query for adjusting link size on smaller screens */
+    @media screen and (max-width: 768px) {
+      .share-buttons a {
+        width: 40%; /* Change the width to 40% for smaller screens */
+        font-size: 0.6em; /* Decrease font size for smaller screens */
+      }
+    }
+	  
+    .share-buttons a i {
+      margin-right: 10px;
+    }
 
-        .share-buttons a i {
-            margin-right: 10px;
-        }
+    /* Change the background color and other styles as needed */
+    .twitter-share {
+      background-color: #1da1f2;
+    }
 
-        .twitter-share {
-            background-color: #1da1f2;
-        }
+    .whatsapp-share {
+      background-color: #25d366;
+    }
 
-        .whatsapp-share {
-            background-color: #25d366;
-        }
-
-        .facebook-share {
-            background-color: #3b5998;
-        }
-
-        .email-share {
-            background-color: #204d74;
-        }
-
+    .facebook-share {
+      background-color: #3b5998;
+    }
+    
+    .email-share {
+      background-color: #204d74;
+    }
         .image-container {
             position: relative;
             display: flex;
@@ -501,20 +502,20 @@
                 <img src="https://i.imgur.com/DIP0FHR.jpeg" alt="Florian Wirtz">
                         </div>
 
-            <div class="share-buttons">
-                <a href="https://twitter.com/intent/tweet?text=Florian%20Wirtz%20-%20Tactical%20Analysis&url=http%3A%2F%2Fdatamb.football%2Fflorian-wirtz-analysis" class="twitter-share" target="_top">
-                    <i class="fab fa-twitter"></i> Share on Twitter
-                </a>
-                <a href="whatsapp://send?text=Florian%20Wirtz%20-%20Tactical%20Analysis%20http%3A%2F%2Fdatamb.football%2Fflorian-wirtz-analysis" class="whatsapp-share" target="_top">
-                    <i class="fab fa-whatsapp"></i> Share on WhatsApp
-                </a>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fdatamb.football%2Fflorian-wirtz-analysis" class="facebook-share" target="_top">
-                    <i class="fab fa-facebook"></i> Share on Facebook
-                </a>
-                <a href="/cdn-cgi/l/email-protection#81bef2f4e3ebe4e2f5bcc7f3e0efe2eea4b3b1cce0f2f5e0eff5f4eeefeea4b3b1aca4b3b1d5e0e2f5e8e2e0eda4b3b1c0efe0edf8f2e8f2a7e3eee5f8bcc2e9e4e2eaa4b3b1eef4f5a4b3b1f5e9e8f2a4b3b1e0f3f5e8e2ede4a4b2c0a4b3b1e9f5f5f1a4b2c0a4b3c7a4b3c7e5e0f5e0ece3afe7eeeef5e3e0ededa4b3c7e7f3e0efe2eeacece0f2f5e0eff5f4eeefeeace0efe0edf8f2e8f2" class="email-share" target="_top">
-                    <i class="fas fa-envelope"></i> Share via Email
-                </a>
-            </div>
+<div class="share-buttons">
+      <a href="https://twitter.com/intent/tweet?text=Florian%20Wirtz%20-%20Tactical%20Analysis&url=http%3A%2F%2Fdatamb.football%2Fflorian-wirtz-analysis" class="twitter-share" target="_top">
+        <i class="fab fa-twitter"></i> Share on Twitter
+      </a>
+      <a href="whatsapp://send?text=Florian%20Wirtz%20-%20Tactical%20Analysis%20http%3A%2F%2Fdatamb.football%2Fflorian-wirtz-analysis" class="whatsapp-share" target="_top">
+        <i class="fab fa-whatsapp"></i> Share on WhatsApp
+      </a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fdatamb.football%2Fflorian-wirtz-analysis" class="facebook-share" target="_top">
+        <i class="fab fa-facebook"></i> Share on Facebook
+      </a>
+      <a href="/cdn-cgi/l/email-protection#254a060a1b130c0a1d540f3b28272a266c7b7954282a2d28273d3c2627266c7b7964687b791d282a3d202a28256c7b7958272825203228322c692d202b3658547f72742c6c7b792632336c7b7932282a203d202f266c7b7926283d202a252c6c7b542c6c7b7945323d283a3528440c252c2c37212a27276c7b54243028272a266624283a2d28273d3c26272664282f2825322c322c" class="email-share" target="_top">
+        <i class="fas fa-envelope"></i> Share via Email
+      </a>
+    </div>
             <br>
 
             <p>German attacking midfielder <a href="https://datamb.football/Florian_Wirtz_Midfielder_stats" target="_top">Florian Wirtz</a> arrives at Liverpool with high expectations. This analysis provides a comprehensive overview of his statistics, playing style, and how he might integrate into the English club.</p>
@@ -595,19 +596,19 @@ crossorigin="anonymous"></script>
             </script><br>
 
             <div class="share-buttons">
-                <a href="https://twitter.com/intent/tweet?text=Florian%20Wirtz%20-%20Tactical%20Analysis&url=http%3A%2F%2Fdatamb.football%2Fflorian-wirtz-analysis" class="twitter-share" target="_top">
-                    <i class="fab fa-twitter"></i> Share on Twitter
-                </a>
-                <a href="whatsapp://send?text=Florian%20Wirtz%20-%20Tactical%20Analysis%20http%3A%2F%2Fdatamb.football%2Fflorian-wirtz-analysis" class="whatsapp-share" target="_top">
-                    <i class="fab fa-whatsapp"></i> Share on WhatsApp
-                </a>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fdatamb.football%2Fflorian-wirtz-analysis" class="facebook-share" target="_top">
-                    <i class="fab fa-facebook"></i> Share on Facebook
-                </a>
-                <a href="/cdn-cgi/l/email-protection#81bef2f4e3ebe4e2f5bcc7f3e0efe2eea4b3b1cce0f2f5e0eff5f4eeefeea4b3b1aca4b3b1d5e0e2f5e8e2e0eda4b3b1c0efe0edf8f2e8f2a7e3eee5f8bcc2e9e4e2eaa4b3b1eef4f5a4b3b1f5e9e8f2a4b3b1e0f3f5e8e2ede4a4b2c0a4b3b1e9f5f5f1a4b2c0a4b3c7a4b3c7e5e0f5e0ece3afe7eeeef5e3e0ededa4b3c7e7f3e0efe2eeacece0f2f5e0eff5f4eeefeeace0efe0edf8f2e8f2" class="email-share" target="_top">
-                    <i class="fas fa-envelope"></i> Share via Email
-                </a>
-            </div>
+      <a href="https://twitter.com/intent/tweet?text=Florian%20Wirtz%20-%20Tactical%20Analysis&url=http%3A%2F%2Fdatamb.football%2Fflorian-wirtz-analysis" class="twitter-share" target="_top">
+        <i class="fab fa-twitter"></i> Share on Twitter
+      </a>
+      <a href="whatsapp://send?text=Florian%20Wirtz%20-%20Tactical%20Analysis%20http%3A%2F%2Fdatamb.football%2Fflorian-wirtz-analysis" class="whatsapp-share" target="_top">
+        <i class="fab fa-whatsapp"></i> Share on WhatsApp
+      </a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fdatamb.football%2Fflorian-wirtz-analysis" class="facebook-share" target="_top">
+        <i class="fab fa-facebook"></i> Share on Facebook
+      </a>
+      <a href="/cdn-cgi/l/email-protection#254a060a1b130c0a1d540f3b28272a266c7b7954282a2d28273d3c2627266c7b7964687b791d282a3d202a28256c7b7958272825203228322c692d202b3658547f72742c6c7b792632336c7b7932282a203d202f266c7b7926283d202a252c6c7b542c6c7b7945323d283a3528440c252c2c37212a27276c7b54243028272a266624283a2d28273d3c26272664282f2825322c322c" class="email-share" target="_top">
+        <i class="fas fa-envelope"></i> Share via Email
+      </a>
+    </div>
         </div>
     </div>
 
